@@ -10,20 +10,14 @@
 }
 
 .header {
-<<<<<<< HEAD
   display: flex;
-=======
->>>>>>> 544d7c67e1f6f78fb026155466bf568a25c37bae
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-<<<<<<< HEAD
   position: relative;
   align-items: center;
   background-color: #f2f2f2;
-=======
->>>>>>> 544d7c67e1f6f78fb026155466bf568a25c37bae
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -39,12 +33,11 @@
   margin-right: 0;
   margin-top: 80px;
 }
-<<<<<<< HEAD
+
 .link {
   color: #2f80ed;
   text-decoration: none;
 }
-
 
 .title {
   width: 730px;
@@ -79,7 +72,7 @@ h1  {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .subtitle {
@@ -112,7 +105,6 @@ h1  {
   z-index: 0;
 
 }
-
 
 .discription {
 
@@ -153,6 +145,8 @@ h1  {
 
 
 
+
+
 .digits {
 }
 
@@ -160,7 +154,6 @@ h1  {
   width: 1100px;
  padding: 100px 0 100px;
  margin: 0 auto;
-
 }
 .section-title {
   margin: 0 auto;
@@ -212,8 +205,6 @@ h1  {
   height: 100vh;
   min-height: 600px;
   max-height: 890px ;
-
-
   position: relative;
   background-image: url(../images/feynman.png);
   background-color: #f2f2f2;
@@ -223,7 +214,6 @@ h1  {
 }
 .feynman__content {
  padding-top: 100px;
-
 }
 
 .feynman__title {
@@ -344,6 +334,3 @@ background-image: url(../images/logo_place_footer.svg);
 .link_theme_dark {
   color: white;
 }
-
-=======
->>>>>>> 544d7c67e1f6f78fb026155466bf568a25c37bae
