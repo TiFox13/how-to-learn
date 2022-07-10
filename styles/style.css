@@ -33,6 +33,10 @@
   margin-right: 0;
   margin-top: 80px;
 }
+.link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 
 
 .title {
@@ -47,10 +51,15 @@ h1  {
   position: absolute;
   z-index: 2;
  }
+
  p {
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
+
+ }
+ a {
+  text-decoration: none;
  }
 
  .logo {
@@ -89,12 +98,243 @@ h1  {
 .square-pic {
   width: 568px;
   height: 568px;
-  background-color:#2f80ed;
   position: absolute;
+  background-color:#2f80ed;
   top:  64px;
   right: 0;
   z-index: 0;
 
 }
 
+
+.discription {
+
+}
+
+.two-columns {
+  width: 80%;
+  padding: 100px 0 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.two-columns__brief {
+  margin-block-start: 0;
+    margin-block-end: 0;
+  margin: 0;
+  width: 175px;
+  color: #2f80ed;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight:normal;
+}
+.two-columns__main-text {
+  margin: 0;
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+.two-columns__paragraph{
+  margin: 0;
+}
+.two-columns__paragraph:nth-last-child(-n+2) {
+  margin-top: 30px;
+}
+
+
+
+
+.digits {
+}
+
+.section__digits {
+  width: 1100px;
+ padding: 100px 0 100px;
+ margin: 0 auto;
+
+}
+.section-title {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.section-subtitle {
+  margin: 20px auto 0;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+}
+.table {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  justify-content: space-between;
+}
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 24px;
+}
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+}
+
+
+
+/* СЕКЦИЯ ФЕЙНМАН */
+
+.feynman {
+
+  height: 100vh;
+  min-height: 600px;
+  max-height: 890px ;
+
+
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+}
+.feynman__content {
+ padding-top: 100px;
+
+}
+
+.feynman__title {
+  text-align: center;
+  padding: 0 0 70px;
+  margin: 0 auto;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.feynman__subtitle {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  margin-block-start:0;
+  margin-block-end: 0;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+}
+
+
+
+
+
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+.kaufman__content {
+  margin-bottom: 90px;
+}
+.section-title_theme_dark {
+  color: white;
+}
+.section-subtitle_theme_dark {
+  color: white;
+}
+.kaufman__table {
+  position:relative;
+  z-index: 1;
+}
+.kaufman__table__cell {
+  width: 200px;
+}
+.kaufman__triangle {
+  position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+  z-index: 0;
+}
+
+
+
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+
+}
+.footer_theme_dark {
+  color: white;
+}
+.footer__columns {
+  margin: 0 auto;
+  padding: 60px 0 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.footer__columns_content_copyright {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex-basis: 711px;
+}
+.footer__author {
+  margin: o 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+}
+.column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer__column-links {
+
+}
+.column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+}
+.footer__social-icon {
+  width: 16px;
+  margin-right: 10px;
+}
+.logo_plase_footer {
+background-image: url(../images/logo_place_footer.svg);
+}
+.link_theme_dark {
+  color: white;
+}
 
