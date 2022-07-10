@@ -10,14 +10,20 @@
 }
 
 .header {
+<<<<<<< HEAD
   display: flex;
+=======
+>>>>>>> 544d7c67e1f6f78fb026155466bf568a25c37bae
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+<<<<<<< HEAD
   position: relative;
   align-items: center;
   background-color: #f2f2f2;
+=======
+>>>>>>> 544d7c67e1f6f78fb026155466bf568a25c37bae
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -33,6 +39,7 @@
   margin-right: 0;
   margin-top: 80px;
 }
+<<<<<<< HEAD
 .link {
   color: #2f80ed;
   text-decoration: none;
@@ -338,3 +345,5 @@ background-image: url(../images/logo_place_footer.svg);
   color: white;
 }
 
+=======
+>>>>>>> 544d7c67e1f6f78fb026155466bf568a25c37bae
