@@ -169,7 +169,6 @@
 }
 
 .digits__title {
-  width: 1100px;
   margin-block-start: 0;
   margin-block-end: 0;
   margin: 0 auto;
@@ -240,7 +239,7 @@
 .feynman {
   height: 100vh;
   min-height: 600px;
-  max-height: 890px ;
+  max-height: 890px;
   position: relative;
   background-image: url(../images/feynman.png);
   background-color: #f2f2f2;
@@ -366,13 +365,11 @@ flex-basis: 711px;
   margin: 0;
 }
 
-.footer__column-links {
- padding: 20px 0 16px;
-}
 
 .footer__column-links {
   margin-block-start: 0;
   margin-block-end: 0;
+  padding: 20px 0 16px;
 }
 
 .column-link {
