@@ -300,7 +300,7 @@
   min-height: 350px;
 }
 
-.footer__columns_theme_dark {
+.footer__column_theme_dark {
   color: white;
 }
 
@@ -312,7 +312,7 @@
   padding: 60px 0 40px;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
 display: flex;
 flex-direction: column;
 justify-content: space-between;
