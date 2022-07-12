@@ -24,6 +24,11 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  background-color:#2f80ed;
+  top:  64px;
+  right: 0;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -90,16 +95,6 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-}
-
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  position: absolute;
-  background-color:#2f80ed;
-  top:  64px;
-  right: 0;
-  z-index: 0;
 }
 
 /* СЕКЦИЯ DESCRIPTION */
@@ -174,9 +169,8 @@
 }
 
 .section-subtitle {
-  margin-top: 0;
-  margin-bottom: 0;
   margin-top: 20px;
+  margin-bottom: 0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -205,9 +199,8 @@
 }
 
 .table__text {
-  margin-top: 0;
-  margin-bottom: 0;
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
