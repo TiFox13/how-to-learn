@@ -54,7 +54,6 @@
   max-width: 730px;
   width: 100%;
   margin-left: 64px;
-  position: absolute;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
@@ -89,6 +88,7 @@
 }
 
 .header__main-illustration {
+  object-fit: cover;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -209,6 +209,7 @@
 /* СЕКЦИЯ ФЕЙНМАН */
 
 .feynman {
+  box-sizing: border-box;
   min-height: 890px;
   position: relative;
   background-image: url(../images/feynman.png);
@@ -294,7 +295,7 @@
 }
 
 .footer__column_theme_dark {
-  color: white;
+
 }
 
 .footer__columns {
@@ -303,6 +304,10 @@
   justify-content: space-between;
   width: 90%;
   padding: 60px 0 40px;
+}
+
+.footer__column {
+  color: white;
 }
 
 .footer__column_content_copyright {
@@ -329,7 +334,6 @@ flex-basis: 711px;
   font-weight: 600;
 }
 
-
 .footer__column-links {
   margin-top: 0;
   margin-bottom: 0;
@@ -350,10 +354,10 @@ flex-basis: 711px;
 background-image: url(../images/logo_place_footer.svg);
 }
 
-.link_theme_dark {
+.footer__column-link {
   color: white;
 }
 
-.link_theme_dark:hover {
+.footer__column-link:hover {
   color: #2f80ed;
 }
