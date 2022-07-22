@@ -294,10 +294,6 @@
   min-height: 350px;
 }
 
-.footer__column_theme_dark {
-
-}
-
 .footer__columns {
   margin: 0 auto;
   display: flex;
@@ -361,3 +357,161 @@ background-image: url(../images/logo_place_footer.svg);
 .footer__column-link:hover {
   color: #2f80ed;
 }
+
+/*НОВЫЕ СЕКЦИИ*/
+
+/*СЕКЦИЯ techniques*/
+.techniques {
+  padding: 100px 0 100px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.techniques__title {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.techniques__subtitle {
+  border: 1px solid red;
+  margin: 20px auto 0;
+  width: 60%;
+}
+
+.cards {
+  border: 1px solid red;
+  width: 920px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  margin-top: 60px;
+  margin-right: 100px;
+  max-width: 240px;
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+
+}
+
+.cards__image {
+  margin: 0 40px 43px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.cards__title {
+  text-align: center;
+  margin: 0 0 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cards__description {
+  text-align: center;
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-style: normal;
+}
+
+/*СЕКЦИЯ video*/
+
+.video__iframes {
+  border: 1px solid red;
+  margin: 50px auto -60px;
+  max-width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+
+}
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  box-sizing: border-box;
+}
+
+/*СЕКЦИЯ oakley*/
+.oakley {
+background-color: #f2f2f2;
+padding-top: 60px;
+margin: 0;
+}
+.two-columns__paragraph:first-child {
+  margin: 0;
+}
+
+/*СЕКЦИЯ khan*/
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-style: normal;
+}
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.khan__quote {
+  width: 790px;
+  margin: 50px 0 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+.khan__quote-author {
+  margin: 36px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.khan__quote-author-subline {
+  margin: 10px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-style: normal;
+}
+.khan__book-container {
+  margin: 68px 0 0;
+  display: flex;
+
+}
+.khan__book-pic {
+  margin-right: 48px;
+   width: 620px;
+  height: 608px;
+}
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-style: normal;
+}
+
+/**/
+
+.resources__content {
+  padding: 100px 0 217px;
+}
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 0;
+}
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
